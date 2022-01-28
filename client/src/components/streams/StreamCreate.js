@@ -2,11 +2,12 @@ import React from "react";
 import { Field, formValues, reduxForm } from 'redux-form';
 
 class StreamCreate extends React.Component {
-    renderInput( {input, label}) {
+    renderInput( {input, label, meta}) {
         return (
         <div>
             <label>{label}</label>
             <input {...input} />
+            <div>{meta.error}</div>
         </div>
         );
     }
@@ -20,7 +21,7 @@ class StreamCreate extends React.Component {
         className="ui form"
         >
             <Field name="title" component={this.renderInput} label="Enter Title" />
-            <Field name="Description" component={this.renderInput} label="Enter Description" />
+            <Field name="description" component={this.renderInput} label="Enter Description" />
             <button className="ui button primary">Submit</button>
         </form>
         );
@@ -28,18 +29,19 @@ class StreamCreate extends React.Component {
 };
 
 const validate = (formValues) => {
-    const errors = {};
+    const error = {};
     if (!formValues.title) {
-        errors.title = 'You must enter a title';
+        error.title = 'You must enter a title';
     }
 
     if (!formValues.description) {
-        errors.description = 'You must enter a description';
+        error.description = 'You must enter a description';
     }
 
-    return errors;
+    return error;
 };
 
 export default reduxForm({
-    form: 'streamCreate'
+    form: 'streamCreate',
+    validate: validate
 })(StreamCreate);
