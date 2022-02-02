@@ -1,4 +1,5 @@
-
+import { formValues } from "redux-form";
+import streams from "../apis/streams.js";
 import { SIGN_IN, SIGN_OUT } from "./types.js";
 
 export const signIn = (userId) => {
@@ -13,3 +14,7 @@ export const signOut = () => {
         type: SIGN_OUT
     };
 };
+
+export const createStream = (formValues) => (dispatch) => {
+    streams.post('/streams', formValues);
+}
