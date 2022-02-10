@@ -1,5 +1,6 @@
 {
     "dependencies": {
-      "react-router-dom": "^5.2.0"
+        "lodash": "^4.17.21",
+        "react-router-dom": "^5.2.0"
     }
-  }
+}
