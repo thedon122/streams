@@ -37,7 +37,7 @@
     },
     {
       "title": "I Created This Stream",
-      "description": "This was made by me",
+      "description": "This change was made by a PATCH request",
       "userId": "104405053075887021894",
       "id": 21
     },
