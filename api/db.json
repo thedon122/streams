@@ -36,21 +36,15 @@
       "id": 20
     },
     {
-      "title": "I Created This Stream",
-      "description": "This change was made by a PATCH request",
-      "userId": "104405053075887021894",
-      "id": 21
-    },
-    {
-      "title": "navigation",
-      "description": "test navigation",
-      "userId": "104405053075887021894",
-      "id": 22
-    },
-    {
       "title": "Me Streaming Component Reuse!",
       "description": "this stream is about refactoring",
       "id": 23
+    },
+    {
+      "title": "new test",
+      "description": "This was made by me",
+      "userId": "104405053075887021894",
+      "id": 24
     }
   ]
 }
