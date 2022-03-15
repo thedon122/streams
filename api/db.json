@@ -45,6 +45,12 @@
       "description": "This was made by me",
       "userId": "104405053075887021894",
       "id": 24
+    },
+    {
+      "title": "Second Test",
+      "description": "other stream",
+      "userId": "104405053075887021894",
+      "id": 25
     }
   ]
 }
