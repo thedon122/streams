@@ -1,6 +1,13 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "react-router-dom": "^5.3.0",
     "redux-form": "^8.3.8"
   }
 }
+=======
+    "dependencies": {
+      "react-router-dom": "^5.2.0"
+    }
+  }
+>>>>>>> 9c30277 (fix route error)

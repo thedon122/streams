@@ -15,4 +15,8 @@ ReactDOM.render(
     <App />
   </Provider>,
   document.querySelector('#root')
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> 9c30277 (fix route error)

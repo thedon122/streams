@@ -5,7 +5,11 @@ const INTIAL_STATE = {
     userId: null
 };
 
+<<<<<<< HEAD
 export default (state = {INTIAL_STATE}, action) => {
+=======
+export default (state = INTIAL_STATE, action) => {
+>>>>>>> 9c30277 (fix route error)
     switch (action.type) {
         case SIGN_IN:
             return { ...state, isSignedIn: true, userId: action.payload };
