@@ -18,8 +18,4 @@ const Header = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Header;
-=======
-export default Header;
->>>>>>> 9c30277 (fix route error)

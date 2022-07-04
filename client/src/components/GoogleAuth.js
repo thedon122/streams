@@ -60,19 +60,11 @@ class GoogleAuth extends React.Component {
   }
 };
 
-<<<<<<< HEAD
-const mapStateToProps = (state) => {
-=======
 const mapStateToProps = state => {
->>>>>>> 9c30277 (fix route error)
   return { isSignedIn: state.auth.isSignedIn };
 };
 
 export default connect(
   mapStateToProps,
   { signIn, signOut }
-<<<<<<< HEAD
 )(GoogleAuth);
-=======
-)(GoogleAuth);
->>>>>>> 9c30277 (fix route error)
